@@ -3,7 +3,10 @@
 Console.WriteLine("My name is Thai");
 Console.WriteLine("Hello, World!");
 
-var thai = new Person
+var bow = new Bow();
+var gun = new Gun();
+
+var thai = new Person(gun)
 {
     Name = "Thai",
     Age = 21
