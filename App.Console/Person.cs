@@ -1,6 +1,6 @@
 ﻿namespace App.Console;
 
-public class Person
+public class Person<THeight>
 {
     public Person(IWeapon weapon)
     {
@@ -8,5 +8,6 @@ public class Person
     }
     public string? Name { get; set; }
     public int Age { get; set; }
+    public THeight Height { get; set; }
     public IWeapon Weapon { get; set; }
 }
